@@ -12,6 +12,10 @@ int main() {
 	float a1;
 	float a2 = 1;
 	
+	if(x >=-1 && x <=0){
+		cout << "Wrong";
+		return 0;
+	}
 	do{  
 		a1 = a2;
 		a2 = pow(-1, i) * pow(x, i) / (i + 1);
